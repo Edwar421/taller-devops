@@ -11,12 +11,11 @@ function App() {
         <div className="content">
           <div className="badge">
             <span className="badge-icon">✨</span>
-            <span>Desplegado con GitHub Actions</span>
+            <span>Desplegado correcto</span>
           </div>
           
           <h1 className="main-title">
-            Bienvenido a tu
-            <span className="gradient-text"> Aplicación DevOps</span>
+            Bienvenido a tu Aplicación DevOps
           </h1>
           
           <p className="subtitle">
