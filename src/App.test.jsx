@@ -4,7 +4,7 @@ import App from './App'
 // PRUEBA 1: Verifica que el título existe en el DOM
 test('muestra el título de la app', () => {
   render(<App />)
-  const titulo = screen.getByText(/Hola DevOps/i)
+  const titulo = screen.getByText(/Bienvenido a tu Aplicación DevOps/i)
   expect(titulo).toBeInTheDocument()
 })
 
